@@ -2,7 +2,9 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body {
+  background-image: url('salon1.jpg');
   padding-top: 5rem;
   margin-bottom: 60px;
 }
