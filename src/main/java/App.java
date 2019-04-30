@@ -6,7 +6,7 @@ import static spark.Spark.*;
 
 public class App {
     public static void main(String[] args){
-// This Sets the port in case of deploying to services that set port--
+// HEROKU -- This Sets the port in case of deploying to HEROKU  that set port-
         ProcessBuilder process = new ProcessBuilder();
         Integer port;
         if(process.environment().get("PORT")!= null){
